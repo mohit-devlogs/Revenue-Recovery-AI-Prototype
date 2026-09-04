@@ -2,7 +2,7 @@
 
 An AI Revenue Recovery agent prototype built for the Razorpay Buildathon 2026.
 
-The system detects payment-provider degradation, identifies revenue at risk, determines bounded recovery actions, executes recovery decisions, and maintains an audit trail of every intervention.
+The system detects payment provider degradation, identifies revenue at risk, determines bounded recovery actions, executes recovery decisions, and maintains an audit trail of every intervention.
 
 It supports both:
 
