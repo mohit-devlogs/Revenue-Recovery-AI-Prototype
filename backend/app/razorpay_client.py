@@ -16,9 +16,6 @@ client = razorpay.Client(
     )
 )
 
-print("Razorpay client initialized")
-print("Key ID loaded:", bool(os.getenv("RAZORPAY_KEY_ID")))
-
 def fetch_payments():
     return client.payment.all({"count": 10})
 
