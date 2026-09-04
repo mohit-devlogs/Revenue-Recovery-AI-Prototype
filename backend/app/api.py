@@ -11,8 +11,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 load_dotenv(BASE_DIR / "backend" / ".env")
 
-print("Razorpay key loaded:", bool(os.getenv("RAZORPAY_KEY_ID")))
-
 app = FastAPI()
 
 app.add_middleware(
